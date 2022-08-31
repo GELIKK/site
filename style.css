@@ -1,0 +1,346 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1225,h_942,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg");
+}
+.active {
+  color: yellow;
+}
+
+main section {
+  width: 90%;
+  height: 1000px;
+}
+header {
+  width: 100%;
+  height: 80px;
+}
+header nav {
+  width: 100%;
+  height: 109px;
+}
+header nav .logo {
+  margin-top: 10px;
+}
+header nav .logo a {
+  font-size: 27px;
+  color: white;
+
+  text-decoration: none;
+}
+header nav ul {
+  float: right;
+  margin-top: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+}
+header nav ul li :hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+header nav .checkBtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-right: 40px;
+  display: none;
+}
+header nav #check {
+  display: none;
+}
+.facebook {
+  display: inline-block;
+}
+.facebook li a {
+  margin: 0px;
+}
+
+main section h1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 100px;
+}
+main section h2 {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.6em;
+}
+main section footer {
+  color: white;
+  font-size: 14px;
+  margin-top: 630px;
+}
+/* portpolioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+.fashion {
+  background-image: url("https://cutewallpaper.org/21/black-picture-wallpaper/Black-Wallpaper-for-Android-APK-Download.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 2400px;
+  display: flex;
+  justify-content: center;
+}
+.fashion section {
+  width: 90%;
+}
+.fashion section h1 {
+  margin-left: 150px;
+
+  display: inline;
+  font-size: 60px;
+}
+
+.fuy {
+  color: white;
+  margin-top: 100px;
+  font-size: 14px;
+}
+.fashion div {
+  width: 95%;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.fashion div img {
+  margin: 40px;
+  width: 440px;
+  height: 600px;
+  transform: scale(1);
+}
+.fashion div img:hover {
+  transform: scale(1.1);
+  transition: o.3s ease-in-out;
+  transition: 1s;
+}
+/* abouttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about section {
+  width: 90%;
+  height: 1500px;
+}
+.about section .about-para {
+  color: white;
+  margin-top: 160px;
+}
+.contunir {
+  width: 95%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.about section .contunir .bio {
+  width: 400px;
+  height: 360px;
+  margin-top: 30px;
+}
+
+.about section .contunir .bio p {
+  color: white;
+}
+.about section .contunir .pic {
+  width: 291px;
+  height: 435px;
+}
+.about section article {
+  width: 95%;
+  height: 250px;
+
+  display: flex;
+}
+.about section article .left {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about section article .right {
+  width: 50%;
+  height: 250px;
+}
+.about section article .right img {
+  margin: 15px;
+}
+
+.about section article .left h3 {
+  font-size: 60px;
+  color: white;
+}
+.about section article .left p {
+  color: white;
+}
+/* albumsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+.albums {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg");
+}
+.albums section {
+  width: 90%;
+  height: 650px;
+}
+span {
+  color: white;
+  font-size: 60px;
+  margin-left: 25px;
+}
+.album {
+  width: 95%;
+  height: 300px;
+
+  margin-left: 25px;
+  margin-top: 25px;
+  display: flex;
+}
+.album aside {
+  width: 332px;
+  height: 272px;
+
+  margin: 10px;
+}
+.image-1 {
+  width: 332px;
+  height: 272px;
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_250,h_167,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2NzI1MzEyMDAiLCJleHAiOjE2NzI1MzEyMDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.c3daEpgFKckc2saF0HGvafxXOxo5u9CpR2cQZ05xsIc");
+}
+.image-2 {
+  width: 332px;
+  height: 272px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.westend61.de/images/0001182024pw/topless-caucasian-teenage-girl-laying-on-rock-in-ocean-BLEF00279.jpg");
+}
+.image-3 {
+  width: 332px;
+  height: 272px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/female-with-book-sleeping-grass_23-2147845726.jpg?w=2000");
+}
+.album-para {
+  color: white;
+  font-size: 14px;
+  margin-top: 50px;
+}
+.overlay-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transform: scale(1);
+}
+.overlay-1:hover {
+  opacity: 0;
+  transition: 0.8s;
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+
+.overlay-1 p {
+  color: white;
+  font-size: 40px;
+}
+/* contactooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+.contri {
+  background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.contri section {
+  width: 90%;
+  height: 780px;
+}
+.contributor {
+  width: 100%;
+  height: 671px;
+  display: flex;
+}
+.contributor aside {
+  width: 50%;
+  height: 671px;
+}
+.contributor aside p {
+  color: white;
+  margin-left: 27px;
+}
+.contributor aside div input {
+  display: flex;
+  height: 50px;
+  width: 205px;
+  background-color: black;
+  margin: 10px;
+  margin-left: 60px;
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+.contributor aside div {
+  display: flex;
+  width: 410px;
+  margin: 40px;
+}
+.text {
+  width: 82%;
+  height: 108px;
+  margin-left: 100px;
+  background-color: black;
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+.contributor aside div input::placeholder {
+  color: white;
+}
+.contributor aside textarea::placeholder {
+  color: white;
+}
+.foreign {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.foreign li a {
+  color: aqua;
+  text-decoration: none;
+  font-weight: bold;
+}

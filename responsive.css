@@ -1,0 +1,188 @@
+@media screen and (max-width: 1898px) {
+  .contri section {
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 1167px) {
+  .album {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .albums section {
+    height: 900px;
+  }
+  .album-para {
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 1192px) {
+  .fashion {
+    height: 4800px;
+  }
+}
+@media screen and (max-width: 1898px) {
+  main section {
+    height: 1060px;
+  }
+}
+@media screen and (max-width: 1062px) {
+  .contributor {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* nav {
+    display: none;
+  } */
+
+  .foreign li {
+    display: none;
+  }
+
+  /* .burger-shargi  {
+    display: block;
+  }
+  .midle nav {
+    display: none;
+  } */
+}
+@media screen and (max-width: 820px) {
+  /* nav {
+    display: none;
+  }
+  .burger-shargi {
+    display: block;
+  } */
+  header nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 10;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 50px 0px;
+  }
+  header nav ul li a {
+    font-size: 30px;
+  }
+  header nav ul li a:hover {
+    color: slateblue;
+  }
+  header nav #check:checked ~ ul {
+    left: 0px;
+  }
+  header nav .checkBtn {
+    display: block;
+  }
+  .albums section {
+    height: 1200px;
+  }
+  .album-para {
+    margin-top: 600px;
+  }
+  .contributor {
+    width: 300px;
+  }
+  .contri section {
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .midle nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 803px) {
+  .about section .contunir {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 746px) {
+  .contri {
+    width: 100%;
+  }
+}
+
+.contributor aside div {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 614px) {
+  .contri {
+    width: 636px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .contri section {
+    height: 1500px;
+  }
+}
+@media screen and (max-width: 502px) {
+  .fashion {
+    width: 602px;
+  }
+}
+@media screen and (max-width: 406px) {
+  .about {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .about section .contunir {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+  }
+
+  .about section {
+    height: 1850px;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  main section h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  main {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 307px) {
+  .contri {
+    height: 1700px;
+  }
+}
+@media screen and (max-width: 236px) {
+  .contri {
+    height: 2000px;
+  }
+}
+@media screen and (max-width: 198px) {
+  main section {
+    height: 3000;
+  }
+}
+@media screen and (max-width: 155px) {
+  .about section {
+    height: 2400px;
+  }
+}
